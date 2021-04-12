@@ -1,16 +1,16 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/Akash-Peace/KIVY-PLYER-ANDROIDAPP/blob/main/images/disco_icon.png" alt="Logo" width="150" height="150">
+  <img src="https://github.com/Akash-Peace/FACE-RECOGNITION/blob/main/testing_imgs/fr_logo.png" alt="Logo" width="150" height="150">
   <h3 align="center">AJ FACE RECOGNIZER</h3>
   <p align="center">
     <a href="https://en.wikipedia.org/wiki/Facial_recognition_system"><strong>A Face Recognition System</strong></a>
     <br />
     <br />
-    <a href="https://drive.google.com/file/d/14L7Qs4PUK-1w3C_nfr8vK7PbeL0edX8P/view?usp=sharing">View Predictions</a>
+    <a href="https://github.com/Akash-Peace/FACE-RECOGNITION/tree/main/output_imgs_%26_vdos">View Predictions</a>
     ·
-    <a href="https://github.com/Akash-Peace/KIVY-PLYER-ANDROIDAPP/issues">Report Bug</a>
+    <a href="https://github.com/Akash-Peace/FACE-RECOGNITION/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Akash-Peace/KIVY-PLYER-ANDROIDAPP/issues">Request Feature</a>
+    <a href="https://github.com/Akash-Peace/FACE-RECOGNITION/issues">Request Feature</a>
   </p>
 </p>
 
@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-AJ Face Recognizer project objective is to make a face recognizing model from own dataset of two faces which one is [Arya Stark](https://en.wikipedia.org/wiki/Arya_Stark) and the another one is [Jon Snow](https://en.wikipedia.org/wiki/Jon_Snow_(character)). First of all, Image processing is done with [Pillow](https://python-pillow.org/) and [OpenCV](https://opencv.org/). For dataset, face extraction and face embeddings are done with [MTCNN](https://pypi.org/project/mtcnn/) and [FaceNet_Keras](https://keras.io/). Final model is trained by Support Vector Machine's SVC(Linear) from [Scikit-learn](https://scikit-learn.org/stable/) and Precdictions are applicable for both images and videos. [MIT](https://github.com/Akash-Peace/KIVY-PLYER-ANDROIDAPP/blob/main/LICENSE) licenses this project and it is free to use, fork, modify and distribute. If you like this project, give a _star_ and follow me.
+AJ Face Recognizer project objective is to make a face recognizing model from own dataset of two faces which one is [Arya Stark](https://en.wikipedia.org/wiki/Arya_Stark) and the another one is [Jon Snow](https://en.wikipedia.org/wiki/Jon_Snow_(character)). First of all, Image processing is done with [Pillow](https://python-pillow.org/) and [OpenCV](https://opencv.org/). For dataset, face extraction and face embeddings are done with [MTCNN](https://pypi.org/project/mtcnn/) and [FaceNet_Keras](https://keras.io/). Final model is trained by Support Vector Machine's SVC(Linear) from [Scikit-learn](https://scikit-learn.org/stable/) and Precdictions are applicable for both images and videos. [MIT](https://github.com/Akash-Peace/FACE-RECOGNITION/blob/main/LICENSE) licenses this project and it is free to use, fork, modify and distribute. If you like this project, give a _star_ and follow me.
 
 ## Built With
 
@@ -55,16 +55,17 @@ AJ Face Recognizer project objective is to make a face recognizing model from ow
 
 ## Data
 
-* [Result data](https://numpy.org/)
-* [Test data](https://opencv.org/)
-* [Classified data](https://matplotlib.org/)
-* [Unclassified data](https://keras.io/)
-* [Origin data](https://scikit-learn.org/stable/)
+* [Result data](https://github.com/Akash-Peace/FACE-RECOGNITION/tree/main/output_imgs_%26_vdos)
+* [Test data](https://github.com/Akash-Peace/FACE-RECOGNITION/tree/main/testing_imgs)
+* [Trained data](https://github.com/Akash-Peace/FACE-RECOGNITION/tree/main/fr_datasets)
+* [Classified data](https://github.com/Akash-Peace/FACE-RECOGNITION/tree/main/face_extracted)
+* [Unclassified data](https://github.com/Akash-Peace/FACE-RECOGNITION/tree/main/face_extracted_all)
+* [Original data](https://github.com/Akash-Peace/FACE-RECOGNITION/tree/main/img_data)
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/KIVY-PLYER-ANDROIDAPP/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Akash-Peace/FACE-RECOGNITION/blob/main/LICENSE) for more information.
 
 
 ## My System Spec
